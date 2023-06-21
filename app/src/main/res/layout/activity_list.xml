@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#555555"
+    android:orientation="vertical"
+    tools:context=".List">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="80px"
+        android:text="@string/list_note"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="50px">
+
+        <Button
+            android:id="@+id/notes_add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200px"
+            android:layout_marginRight="20px"
+            android:layout_weight="1"
+            android:backgroundTint="#1E2D7E"
+            android:onClick="onNew_click"
+            android:text="@string/add_note" />
+
+        <Button
+            android:id="@+id/notes_exit_button"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="200px"
+            android:layout_weight="1"
+            android:backgroundTint="#1E2D7E"
+            android:onClick="onSignOut_click"
+            android:text="@string/ext" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/NoteList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

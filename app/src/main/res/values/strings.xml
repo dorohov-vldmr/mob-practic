@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">practic</string>
+    <string name="login">Логин</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="empty" />
+    <string name="reg">Регистрация</string>
+    <string name="ok">Ok</string>
+    <string name="ext">Выход</string>
+    <string name="list_note">Список заметок</string>
+    <string name="add_note">Добавить</string>
+    <string name="note">Заметка</string>
+    <string name="save_note">Сохранить</string>
+    <string name="close">Закрыть</string>
+    <string name="delete">Удалить</string>
+    <string name="save">Save</string>
+    <string name="title">Title</string>
+</resources>
